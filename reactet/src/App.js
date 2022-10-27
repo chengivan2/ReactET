@@ -2,10 +2,10 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-const elementOne = React.createElement(
-  'h1',
-  {className: 'greeting'},
-  'Ivan is Awesomer!'
+const elementOne = (
+  <div>
+    <h1>Jello, Correct World!</h1>
+  </div>
 );
 
 function App() {
